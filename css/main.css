@@ -1,0 +1,27 @@
+html {
+  background-color: #fff
+}
+
+body {
+  margin: 0em;
+}
+
+header {
+  background-color: #fde30c;
+}
+
+h1 {
+  padding: 1em 1em 0.5em 1em;
+  border-radius: 10px;
+  margin: 0em;
+  font-weight: normal;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-family: 'Francois One', sans-serif;
+  line-height: .5;
+  text-align: center;
+}
+
+main {
+  padding: 1em;
+}

@@ -4,6 +4,7 @@ html {
 
 body {
   margin: 0em;
+  font-family: Georgia;
 }
 
 header {
@@ -17,11 +18,40 @@ h1 {
   font-weight: normal;
   font-size: 3.5rem;
   font-style: normal;
-  font-family: 'Francois One', sans-serif;
+  font-family: 'Sigmar One', cursive;
   line-height: .5;
   text-align: center;
+  color: #b41677;
 }
 
 main {
   padding: 1em;
+}
+
+nav ol a {
+  align: center;
+  padding: 0;
+  font-size: 1em;
+  text-decoration: none;
+  color: #fff;
+  margin: 0;
+  border: 5px;
+  width: 5em;
+  background-color: #b41677;
+  padding: 0.5em;
+  border-radius: 4px;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0.5em 1em 1.5em 1em;
+  padding: 0;
+}
+
+nav ol a:hover {
+  background-color: #918b8b;
+}
+
+h4 {
+  text-align: center;
 }

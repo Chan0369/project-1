@@ -16,7 +16,7 @@ h1 {
   border-radius: 10px;
   margin: 0em;
   font-weight: normal;
-  font-size: 3rem;
+  font-size: 4rem;
   font-style: normal;
   font-family: 'Sigmar One', cursive;
   line-height: .5;
@@ -26,14 +26,26 @@ h1 {
 
 h2 {
   font-weight: normal;
+  font-size: 2.5rem;
+  font-style: normal;
+  font-family: 'Sigmar One', cursive;
+  line-height: .5;
+  text-align: left;
+  margin: 0.5em 1em 0.5em 0em;
+  color: #b41677;
+}
+
+h3 {
+  font-weight: normal;
   font-size: 1.5rem;
   font-style: normal;
   font-family: 'Sigmar One', cursive;
   line-height: .5;
   text-align: left;
-  color: #444;
-  margin: 0.5em 1em 0.5em 0em;
   color: #b41677;
+  margin: 0em;
+  padding: 0.5em 1em 0.5em 0em;
+
 }
 
 main {

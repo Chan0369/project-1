@@ -13,11 +13,11 @@ header {
 }
 
 h1 {
-  padding: 1em 1em 0.5em 1em;
+  padding: 0.5em 1em 0.5em 0.75em;
   border-radius: 10px;
   margin: 0em;
   font-weight: normal;
-  font-size: 4rem;
+  font-size: 3rem;
   font-style: normal;
   font-family: 'Sigmar One', cursive;
   line-height: .5;
@@ -78,6 +78,7 @@ nav li {
 
 nav ol {
   padding: 0;
+  margin: 0;
 }
 
 nav ol a:hover {
@@ -85,15 +86,24 @@ nav ol a:hover {
 }
 
 p {
-  padding: 0.25em 1em 0.5em 1em;
+  padding: 0.25em 0em 0.5em 0em;
   margin: 0;
 }
 h4 {
   text-align: center;
+  font-size: 3em;
+  margin: 0em;
 }
 
 blockquote {
   margin: 0;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+div {
+  text-align: center;
+  font-size: 1.5em;
 }
 
 dt {

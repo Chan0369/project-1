@@ -67,7 +67,7 @@ nav ol a {
   margin: 0;
   border: 5px;
   width: 5em;
-  background-color: #b41677;
+  background-color: #aca76b;
   padding: 0.5em;
   border-radius: 4px;
 }
@@ -84,7 +84,7 @@ nav ol {
 }
 
 nav ol a:hover {
-  background-color: #918b8b;
+  background-color: #b41677;
 }
 
 p {
@@ -95,23 +95,32 @@ h4 {
   text-align: center;
   font-size: 3em;
   margin: 0em;
+  color: #aca76b;
 }
 
 blockquote {
   margin: 0;
   text-align: center;
   font-size: 1.5em;
+  color: #aca76b;
 }
 
 div {
   text-align: center;
   font-size: 1.5em;
+  color: #aca76b;
 }
 
 figure{
   background-color: #f8f4c7;
   padding: 1em;
   margin: 0.5em 0.5em 0.5em 0.5em;
+  border-radius: 7px;
+}
+
+figcaption {
+  text-align: center;
+  font-style: italic;
 }
 
 img {
@@ -131,4 +140,10 @@ dd {
 
 em {
   padding: 1em 0.25em 1em 0em;
+}
+
+footer {
+  background-color: #fde30c;
+  padding: 2em 0em 2em 0em;
+  text-align: center;
 }

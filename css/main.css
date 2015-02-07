@@ -5,6 +5,7 @@ html {
 body {
   margin: 0em;
   font-family: Georgia;
+  line-height: 1.5;
 }
 
 header {
@@ -71,7 +72,7 @@ nav ol a {
 
 nav li {
   display: inline-block;
-  margin: 0.5em 0.5em 1em 0.5em;
+  margin: 0.5em 0.125em 1em 0.125em;
   padding: 0;
 }
 
@@ -93,4 +94,20 @@ h4 {
 
 blockquote {
   margin: 0;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin: 0;
+}
+
+.per {
+  padding: 0em 0em 1em 0em;
+}
+
+em {
+  padding: 1em 0.25em 1em 0em;
 }

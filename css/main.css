@@ -27,21 +27,23 @@ h1 {
 
 h2 {
   font-weight: normal;
-  font-size: 2.5rem;
+  font-size: 2rem;
   font-style: normal;
   font-family: 'Sigmar One', cursive;
-  line-height: .5;
+  line-height: .75;
   text-align: left;
   margin: 0.5em 1em 0.5em 0em;
   color: #b41677;
+  border-top: solid #fde30c 0.25rem;
+  padding: 0.75em 0em 0em 0em;
 }
 
 h3 {
   font-weight: normal;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-style: normal;
   font-family: 'Sigmar One', cursive;
-  line-height: .5;
+  line-height: .75;
   text-align: left;
   color: #b41677;
   margin: 0em;
@@ -106,6 +108,15 @@ div {
   font-size: 1.5em;
 }
 
+figure{
+  background-color: #f8f4c7;
+  padding: 1em;
+  margin: 0.5em 0.5em 0.5em 0.5em;
+}
+
+img {
+  width: 100%;
+}
 dt {
   font-weight: bold;
 }
